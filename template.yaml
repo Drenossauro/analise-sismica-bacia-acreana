@@ -1,0 +1,195 @@
+theme: default # default || dark
+organization: UFAC
+twitter: '@denkivvakame'
+title: 'Levantamento, análise e divulgação de terremotos no Acre'
+journal: "UFAC"
+resources:
+  paper: null
+  arxiv: null
+  code: null
+  video: null
+  huggingface: null
+description: academic projectpage template that supports markdown and KaTeX
+
+image: https://denkiwakame.github.io/academic-project-template/assets/teaser.png
+url: https://denkiwakame.github.io/academic-project-template
+speakerdeck: # speakerdeck slide ID
+authors:
+  - name: João Victor da Silva Schu
+    affiliation: []
+    url: https://lattes.cnpq.br/4450033401516442
+    position: Orientando
+  - name: Antônio Romero da Costa Pinheiro
+    affiliation: []
+    position: Orientador
+    url: https://www.escavador.com/sobre/417493/antonio-romero-da-costa-pinheiro
+affiliations:
+- null
+meta:
+  - null
+bibtex: 
+  - null
+
+teaser: geofisica.jpg
+abstract: 
+    "<p>A Geofísica é uma ciência fascinante que estuda a Terra utilizando métodos físicos. Através da aplicação de princípios da física, ela investiga o interior do nosso planeta e seus processos dinâmicos. Essa disciplina abrange uma vasta gama de técnicas e tecnologias, permitindo-nos explorar desde a superfície terrestre até as profundezas do núcleo.</p>
+
+    <h2><strong>O Que a Geofísica Estuda?</strong></h2>
+    <p>Os geofísicos trabalham com uma variedade de dados, como ondas sísmicas, campos gravitacionais, campos magnéticos, e muito mais. Eles utilizam essas informações para mapear estruturas subterrâneas, compreender a composição do solo e do manto terrestre, e monitorar atividades sísmicas e vulcânicas.</p>
+
+    <h2><strong>Métodos Geofísicos</strong></h2>
+    <p>Existem diversos métodos geofísicos, cada um com suas aplicações específicas:</p>
+    <ul>
+        <li><strong>Sísmica</strong>: Utiliza a propagação de ondas sísmicas para explorar a estrutura da Terra.</li>
+        <li><strong>Gravimetria</strong>: Estuda variações no campo gravitacional para identificar características geológicas.</li>
+        <li><strong>Magnetometria</strong>: Investiga anomalias no campo magnético terrestre para entender a distribuição de minerais.</li>
+        <li><strong>Eletrorresistividade</strong>: Mede a resistência elétrica do subsolo para detectar a presença de água e minerais.</li>
+    </ul>
+
+    <h2><strong>Aplicações da Geofísica</strong></h2>
+    <p>A Geofísica tem aplicações práticas em várias áreas:</p>
+    <ul>
+        <li><strong>Exploração de Recursos Naturais</strong>: Identificação de reservas de petróleo, gás, minerais e água subterrânea.</li>
+        <li><strong>Engenharia Civil</strong>: Avaliação do solo e subsuperfície para construção de infraestruturas seguras.</li>
+        <li><strong>Monitoramento Ambiental</strong>: Rastreamento de poluentes e monitoramento de aquifers.</li>
+        <li><strong>Prevenção de Desastres Naturais</strong>: Previsão e monitoramento de terremotos, erupções vulcânicas e deslizamentos de terra.</li>
+    </ul>
+    <h>
+
+    <h2><strong>Origem dos Sismos</strong></h2>
+    <p>Os sismos, também conhecidos como terremotos, são resultantes da liberação súbita de energia acumulada na crosta terrestre. Esta energia é liberada na forma de ondas sísmicas que se propagam pela Terra. A origem dos sismos está intimamente ligada ao movimento das placas tectônicas, as grandes porções da litosfera que se movem sobre o manto terrestre.</p>
+
+    <h2><strong>Tipos de Movimentos Tectônicos</strong></h2>
+    <p>Os movimentos das placas tectônicas são responsáveis por diversas formas de interação entre elas, e podem ser classificados em três tipos principais:</p>
+
+    <h3>1. Movimento Convergente</h3>
+    <p>Ocorre quando duas placas tectônicas se movem em direção uma à outra. Esse tipo de movimento pode resultar em:</p>
+    <ul>
+        <li><strong>Subducção</strong>: Uma placa mergulha sob a outra, formando fossas oceânicas e causando atividade vulcânica.</li>
+        <li><strong>Colisão</strong>: Quando duas placas continentais colidem, formando cadeias de montanhas, como os Himalaias.</li>
+    </ul>
+
+    <h3>2. Movimento Divergente</h3>
+    <p>Ocorre quando duas placas tectônicas se afastam uma da outra. Este movimento resulta na formação de novas crustas oceânicas e é caracterizado por:</p>
+    <ul>
+        <li><strong>Dorsais Meso-Oceânicas</strong>: Cadeias de montanhas submarinas formadas pela ascensão de magma, como a Dorsal Mesoatlântica.</li>
+        <li><strong>Rifts Continentais</strong>: Fendas na crosta terrestre que podem eventualmente se transformar em novas bacias oceânicas.</li>
+    </ul>
+
+    <h3>3. Movimento Transformante</h3>
+    <p>Ocorre quando duas placas tectônicas deslizam lateralmente uma em relação à outra. Este tipo de movimento é responsável pela formação de falhas, como a famosa Falha de San Andreas na Califórnia. Os movimentos transformantes podem causar terremotos significativos devido ao acúmulo de tensão e sua subsequente liberação.</p>"
+body:
+  - title: Media examples
+    text: |
+      You can access media files in `src/media/` using `assets/` paths
+
+      <div class="uk-position-relative" uk-slideshow="animation: fade">
+        <div class="uk-slideshow-items">
+          <div>
+            <img src="assets/001.jpg" alt="" uk-cover>
+          </div>
+          <div>
+            <img src="assets/002.jpg" alt="" uk-cover>
+          </div>
+          <div>
+            <img src="assets/003.jpg" alt="" uk-cover>
+          </div>
+        </div>
+        <div class="uk-position-bottom-center uk-position-small">
+          <ul class="uk-thumbnav">
+            <li uk-slideshow-item="0"><a href="#"><img src="assets/001.jpg" width="100" height="67" alt=""></a></li>
+            <li uk-slideshow-item="1"><a href="#"><img src="assets/002.jpg" width="100" height="67" alt=""></a></li>
+            <li uk-slideshow-item="2"><a href="#"><img src="assets/003.jpg" width="100" height="67" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      Refer to [UIKit Video Components Documentation](https://getuikit.com/docs/video) and [Grid system](https://getuikit.com/docs/grid)
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+        
+        </div>
+        <div>
+          
+        </div>
+      </div>
+  - title: Markdown examples
+    text: |
+      Here's our demo text showcasing the power of markdown and KaTeX integration!
+      Markdown allows you to easily format text using simple syntax.
+      - **bold**
+      - *italic*
+      - `inline code`.
+
+      You can also create headings of various levels:
+      # Heading Level 1
+      ## Heading Level 2
+      ### Heading Level 3
+      #### Heading Level 4
+      Markdown allows you to create tables like the following:
+      ### Fictitious AI Benchmark Results
+      | Model Name          | Accuracy (%) | Inference Time (ms) |
+      |---------------------|--------------|---------------------|
+      | TransGPT-XT         | 96.3         | $\infty$                 |
+      | GigaBERT Prime      | 94.7         | 9.5                 |
+      | MegaLSTM-Pro        | 92.5         | 10.1                |
+      | UltraTransformer    | 97.1         | 7.8                 |
+      | **QuantumDNN-ALPHA**    | 95.8         | 8.5             |
+
+      Of course, you can also directly write tables in HTML if needed. For more details, refer to the [UIKit Table documentation](https://getuikit.com/docs/table).
+
+      <div class="uk-overflow-auto uk-width-1-1">
+        <table class="uk-table uk-table-small uk-text-small uk-table-divider">
+          <thead>
+            <tr>
+              <th>Model Name</th>
+              <th>Accuracy (%)</th>
+              <th>Inference Time (ms)</th>
+              <th>Memory Usage (MB)</th>
+              <th>Training Time (hours)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>TransGPT-XT<br/>GigaBERT Prime</td>
+              <td>96.3<br/>94.7</td>
+              <td>8.2<br/>9.5</td>
+              <td>1200<br/>1100</td>
+              <td>36<br/>48</td>
+            </tr>
+            <tr>
+              <td>MegaLSTM-Pro<br/>UltraTransformer</td>
+              <td>92.5<br/>97.1</td>
+              <td>10.1<br/>7.8</td>
+              <td>1050<br/>1300</td>
+              <td>56<br/>42</td>
+            </tr>
+            <tr class="uk-active">
+              <td>QuantumDNN-ALPHA</td>
+              <td>95.8</td>
+              <td>8.5</td>
+              <td>1250</td>
+              <td>50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  - title: KaTeX examples
+    text: >
+      $\KaTeX$ enables you to write mathematical expressions beautifully within your text (e.g. $\alpha$, $\beta$, $\gamma$ ).
+      $$ax^2 + bx + c = 0$$
+      $$ \int \oint \sum \prod $$
+      $$ \begin{CD} A @>a>> B \\ @VbVV @AAcA \\ C @= D \end{CD} $$
+      [KaTeX supports a wide range of mathematical symbols and equations](https://katex.org/docs/support_table.html), ensuring your technical content is both clear and visually appealing.
+      With markdown for text formatting and KaTeX for mathematical expressions, our template empowers you to communicate complex ideas effectively. Whether you're writing a scientific paper or a technical blog post, harnessing these tools will elevate your content and engage your readers.
+projects: # relevant projects
+  - title: Relevant Project I
+    description: abstract text
+    img: assets/teaser.png
+    journal: "ABCD'23"
+    url: https://denkiwakame.github.io/academic-project-template/
+  - title: Relvant Project II
+    description: abstract text
+    img: assets/teaser.png
+    journal: "EFGR'22"
+    url: https://denkiwakame.github.io/academic-project-template/
