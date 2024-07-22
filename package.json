@@ -15,10 +15,6 @@
   "author": "denkiwakame <denkivvakame@gmail.com>",
   "license": "CC-BY-SA4.0",
   "reactSnap": {
-    "puppeteerArgs": [
-      "--disable-setuid-sandbox",
-      "--no-sandbox"
-    ],
     "concurrency": 1,
     "inlineCss": false
   },
